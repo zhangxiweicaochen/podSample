@@ -1,0 +1,26 @@
+PODS:
+  - CircleMenu (4.1.0)
+  - httpmanager (0.0.1)
+  - PodSwift (0.0.1)
+
+DEPENDENCIES:
+  - CircleMenu (from `../CircleMenu`)
+  - httpmanager (from `../httpmanager`)
+  - PodSwift (from `../PodSwift`)
+
+EXTERNAL SOURCES:
+  CircleMenu:
+    :path: "../CircleMenu"
+  httpmanager:
+    :path: "../httpmanager"
+  PodSwift:
+    :path: "../PodSwift"
+
+SPEC CHECKSUMS:
+  CircleMenu: fda535c0690eb60a2581c7932af5f1a0c44e5775
+  httpmanager: 60a312c580812936c4f209821f351cbc1ec1583b
+  PodSwift: 283ca09517234835be8c1b267b2a823e0ff3c7ae
+
+PODFILE CHECKSUM: 2093d66a61f8273653240f3f6eb5ba24f4c4b1a3
+
+COCOAPODS: 1.5.3

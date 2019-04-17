@@ -1,0 +1,26 @@
+{
+  "name": "httpmanager",
+  "version": "0.0.1",
+  "summary": "a easy to use http tool",
+  "description": "a easy to use http tool",
+  "homepage": "https://github.com/agei/httpmanager",
+  "license": "MIT",
+  "authors": {
+    "zhangxiwei": "zhangxiwei@sogou-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/httpmanager.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "httpmanager/Tool/*.{h,m}"
+  ],
+  "exclude_files": "httpmanager/*",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
