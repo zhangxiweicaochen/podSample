@@ -12,6 +12,8 @@ target 'podSample' do
   pod 'PodSwift' , :path => '../PodSwift'
   
   pod 'CircleMenu', :path => '../CircleMenu'
+  
+  pod 'MBProgressHUD'
 
   target 'podSampleTests' do
     inherit! :search_paths

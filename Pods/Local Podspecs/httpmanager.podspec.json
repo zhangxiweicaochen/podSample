@@ -17,6 +17,14 @@
     "httpmanager/Tool/*.{h,m}"
   ],
   "exclude_files": "httpmanager/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "CocoaLumberjack": [
+
+    ]
+  },
   "platforms": {
     "osx": null,
     "ios": null,

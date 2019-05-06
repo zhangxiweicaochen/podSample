@@ -1,12 +1,24 @@
 PODS:
   - CircleMenu (4.1.0)
-  - httpmanager (0.0.1)
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
+  - httpmanager (0.0.1):
+    - CocoaLumberjack
+    - MBProgressHUD
+  - MBProgressHUD (1.1.0)
   - PodSwift (0.0.1)
 
 DEPENDENCIES:
   - CircleMenu (from `../CircleMenu`)
   - httpmanager (from `../httpmanager`)
+  - MBProgressHUD
   - PodSwift (from `../PodSwift`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   CircleMenu:
@@ -18,9 +30,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CircleMenu: fda535c0690eb60a2581c7932af5f1a0c44e5775
-  httpmanager: 60a312c580812936c4f209821f351cbc1ec1583b
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
+  httpmanager: 4ad25627f0e2456a942dd5845032764fd4fd16d2
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   PodSwift: 283ca09517234835be8c1b267b2a823e0ff3c7ae
 
-PODFILE CHECKSUM: 2093d66a61f8273653240f3f6eb5ba24f4c4b1a3
+PODFILE CHECKSUM: 1c37d1cb373f0df63929fd14c3fdd17b5223be33
 
 COCOAPODS: 1.5.3
