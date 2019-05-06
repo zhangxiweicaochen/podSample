@@ -11,6 +11,8 @@
 #endif
 
 #import "HttpManager.h"
+#import "HttpUtil.h"
+#import "TRHome11ViewController.h"
 
 FOUNDATION_EXPORT double httpmanagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char httpmanagerVersionString[];

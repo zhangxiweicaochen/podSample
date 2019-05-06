@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6FF24DA81D1DC8573D4C46CACB779419"
+               BlueprintIdentifier = "F865892FB81CF989243EDB91E9623E08"
                BlueprintName = "httpmanager"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "httpmanager.framework">
